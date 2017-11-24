@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Frijole;
+    src: url('Frijole.ttf');
+}
+
+@font-face {
+    font-family: Ancherr;
+    src: url('Ancherr.ttf');
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png')
+}
+
+#center-wrapper {
+    display: block;
+    width: 840px;
+    margin: auto auto;
+    text-align: center;
+    color: white;
+    
+}
+
+h1.headline {
+    margin: 0;
+}
+
+.headline {
+    background: linear-gradient(180deg, #77A1D3, #79CBCA, #E684AE 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Ancherr, serif;
+    font-size: 150px;
+}
+
+#timer div {
+    font-family: Frijole, serif;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#timer #days {
+    margin: 0;
+    display: block;
+    font-size: 120px;
+}
+
+#timer #days span {
+    display: inline;
+}
+
+#jaba-left {
+    background-image: url('img/jaba-left.gif');
+    position: absolute;
+    display: block;
+    float: left;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width: 290px;
+    z-index: -1;
+}
+
+#jaba-right{
+    background-image: url('img/jaba-right.gif');
+    position: absolute;
+    display: block;
+    float: right;
+    top: 0px;
+    right: 0;
+    height: 100%;
+    width: 290px;
+    z-index: -1;
+}
