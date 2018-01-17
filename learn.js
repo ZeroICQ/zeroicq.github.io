@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var targetTime = (new Date(Date.UTC(2017, 5, 30, 22, 30, 0, 0))).getTime();
+    var targetTime = (new Date(Date.UTC(2018, 0, 18, 0, 10, 0, 0))).getTime();
     
     var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
     var oneHour = 60*60*1000; // hours*minutes*seconds*milliseconds
